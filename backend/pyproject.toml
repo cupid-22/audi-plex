@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "diart-react-demo"
+version = "0.1.0"
+description = "Simple diart + React prototype"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.110.0"
+uvicorn = "^0.29.0"
+diart = "^1.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
